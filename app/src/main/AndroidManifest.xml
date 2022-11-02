@@ -14,17 +14,50 @@
         android:theme="@style/Theme.NgobrolKuy"
         tools:targetApi="31">
         <activity
+            android:name=".GantiActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ChatPersonalActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ProfilePicActivity"
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

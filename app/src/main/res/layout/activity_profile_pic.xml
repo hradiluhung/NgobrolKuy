@@ -7,7 +7,7 @@
     android:background="@drawable/gradient_drawable"
     tools:context=".ProfilePicActivity">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profilePic"
         android:layout_width="500px"
         android:layout_height="500px"
@@ -18,7 +18,7 @@
         android:layout_marginTop="48dp"/>
 
     <ImageView
-        android:id="@+id/pinkCircle"
+        android:id="@+id/btnEdit"
         android:layout_width="120px"
         android:layout_height="120px"
         android:src="@drawable/circle"
@@ -29,10 +29,10 @@
         android:layout_width="100px"
         android:layout_height="100px"
         android:src="@drawable/ic_baseline_edit_24"
-        app:layout_constraintStart_toStartOf="@id/pinkCircle"
-        app:layout_constraintEnd_toEndOf="@id/pinkCircle"
-        app:layout_constraintTop_toTopOf="@id/pinkCircle"
-        app:layout_constraintBottom_toBottomOf="@id/pinkCircle"/>
+        app:layout_constraintStart_toStartOf="@id/btnEdit"
+        app:layout_constraintEnd_toEndOf="@id/btnEdit"
+        app:layout_constraintTop_toTopOf="@id/btnEdit"
+        app:layout_constraintBottom_toBottomOf="@id/btnEdit"/>
 
     <ImageView
         android:layout_width="320px"
@@ -61,6 +61,7 @@
 
 
     <TextView
+        android:id="@+id/btnLewati"
         android:visibility="visible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,6 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/btnLanjut"
         android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
