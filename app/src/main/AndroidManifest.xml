@@ -23,7 +23,6 @@
         </activity>
         <activity
             android:name=".SettingActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -39,7 +38,6 @@
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -47,7 +45,6 @@
         </activity>
         <activity
             android:name=".ProfilePicActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"
